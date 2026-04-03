@@ -6,7 +6,7 @@ export default function Home() {
       
       {/* Nom + description */}
       <div className="mb-6">
-        <h1 className="text-2xl font-semibold">Angelina Leite✨</h1>
+        <h1 className="text-2xl font-semibold">Angelina Leite</h1>
         <p className="text-sm">Artiste visuelle & réalisatrice</p>
       </div>
 
