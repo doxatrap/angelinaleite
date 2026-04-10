@@ -29,7 +29,7 @@ export default function Home() {
           onClick={handleClick}
         >
           <img
-            src="/logoo.jpg"
+            src="/logo.jpg"
             alt="Entrer"
             className={`w-[80vw] max-w-4xl h-auto rounded-2xl blur-sm hover:blur-0 transition duration-500 ease-out hover:scale-105
             ${fadeOut ? "animate-fade-out" : "animate-fade-in"}`}
