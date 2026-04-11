@@ -25,7 +25,7 @@ export default function Home() {
       {/* IMAGE INTRO */}
       {!entered && (
         <div
-          className="flex items-center justify-center h-screen cursor-pointer"
+          className="flex items-center justify-center min-h-screen"
           onClick={handleClick}
         >
 <img
