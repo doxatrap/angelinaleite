@@ -28,12 +28,12 @@ export default function Home() {
           className="flex items-center justify-center h-screen cursor-pointer"
           onClick={handleClick}
         >
-          <img
-            src="/logo.jpg"
-            alt="Entrer"
-            className={`w-[80vw] max-w-4xl h-auto rounded-2xl blur-sm hover:blur-0 transition duration-500 ease-out hover:scale-105
-            ${fadeOut ? "animate-fade-out" : "animate-fade-in"}`}
-          />
+<img
+  src="/logo.jpg"
+  alt="Entrer"
+  className={`w-[80vw] max-w-4xl h-auto rounded-2xl blur-md 
+  ${fadeOut ? "animate-fade-out" : "animate-fade-in"}`}
+/>
         </div>
       )}
 
